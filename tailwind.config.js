@@ -3,7 +3,7 @@ const { transform } = require("sucrase");
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   // content: ["./src/**/*.{html,js}"],
-  content: ["./build/**/*.{html, js}"],
+  content: ["./build/*.html", "./build/js/*.js"],
   theme: {
     extend: {
       screens: {
